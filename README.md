@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. unzip file
+1. clone project
 2. `cd dns_prototype`
 
 > **_NOTE:_** network.testnet.local has to be available
