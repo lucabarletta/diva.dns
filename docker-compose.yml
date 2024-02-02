@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dns_prototype:
+    container_name: dns_prototype
+    image: dns_prototype:latest
+    ports:
+      - "9090:9090"
+
+networks:
+  default:
+    name: network.testnet.local
+    external: true
